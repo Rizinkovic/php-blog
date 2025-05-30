@@ -1,9 +1,9 @@
 <?php
 // Database config
 $db_host = "sql211.infinityfree.com";
-$db_user = "if0_39077665";
-$db_pass = "salemx1234"; // Empty for XAMPP/WAMP
-$db_name = "if0_39077665_myblog";
+$db_user = "";
+$db_pass = ""; // Empty for XAMPP/WAMP
+$db_name = "";
 
 // Connect to database first (no session dependency)
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
