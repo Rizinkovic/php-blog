@@ -1,0 +1,33 @@
+# General Web Development
+node_modules/                # Node.js dependencies
+vendor/                     # PHP Composer dependencies
+*.log                       # Log files (e.g., error.log)
+*.cache                     # Cache files
+*.tmp                       # Temporary files
+.DS_Store                   # macOS system files
+Thumbs.db                   # Windows system files
+
+# Environment and Secrets
+.env                        # DB credentials (e.g., MySQL for your PHP blog)
+.env.local
+config.php          # Custom PHP config with sensitive data
+
+# Database and Hosting
+*.sql                       # SQL dumps from phpMyAdmin
+uploads/                    # User-uploaded files in your blog
+public/uploads/             # Common PHP upload folder
+
+# Build and Dependency Tools
+dist/                       # JS/CSS build output
+build/                      # Build artifacts
+package-lock.json           # npm lock file (optional)
+
+# IDE and Editor Files
+.vscode/                    # VS Code settings
+.idea/                      # JetBrains IDE settings
+
+# InfinityFree Hosting
+public_html/                # Hosting folder (avoid versioning)
+.htaccess.backup            # Backup of .htaccess
+error_log                   # Hosting error logs
+cgi-bin/                    # Default hosting folder
